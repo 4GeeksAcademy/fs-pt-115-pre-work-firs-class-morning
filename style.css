@@ -1,0 +1,67 @@
+body {
+    background-image: url("https://livestorm.imgix.net/1127/1642690942-funny_001.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 16px);
+}
+
+.tinder-card {
+    width: 400px;
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    margin: 0 auto;
+}
+
+.tinder-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.profile-img {
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+
+}
+.icons {
+    font-size: 20px;
+    color: #888;
+    display: flex;
+}
+
+.icons div{
+  margin: 0 6px;
+}
+
+
+.info {
+  padding: 15px;
+}
+
+.info h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.info span {
+  font-weight: normal;
+  color: #777;
+}
+
+.distance {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #333;
+}
